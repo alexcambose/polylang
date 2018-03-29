@@ -3,11 +3,12 @@
 [![Build Status](https://travis-ci.org/alexcambose/polylang.svg?branch=master)](https://travis-ci.org/alexcambose/polylang)
 
 Small library for handling multi language support using JavaScript
+
 ## Installation
 ```
-npm install --save @alexcambose/polylang
+npm install --save polylang
 ```
-
+[npm](https://www.npmjs.com/package/polylang)
 ## Usage
 ```javascript
 const Polylang = require('polylang'); // or if you are using ES6 imports, import Polylang from 'polylang';
@@ -28,13 +29,13 @@ polylang.add('ro', {
     }
 });
 
-polylang.t("welcome"); // welcome
-polylang.t("errors.invalid_email", { email: "test@test.com", reason: "it is too short!" }); // test@test.com is not a valid email because it is too short!
+polylang.t('welcome'); // welcome
+polylang.t('errors.invalid_email', { email: 'test@test.com', reason: 'it is too short!' }); // test@test.com is not a valid email because it is too short!
 
 polylang.lang = 'ro';
 
-polylang.t("welcome"); // salutare
-polylang.t("errors.invalid_email", { email: "test@test.com", motiv: "este prea scurt!" }); // test@test.com nu este un email valid deoarece este prea scurt!
+polylang.t('welcome'); // salutare
+polylang.t('errors.invalid_email', { email: 'test@test.com', motiv: 'este prea scurt!' }); // test@test.com nu este un email valid deoarece este prea scurt!
 ```
 
 

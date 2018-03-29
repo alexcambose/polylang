@@ -1,13 +1,33 @@
 {
   "name": "polylang",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Small library for handling multi language support using JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
-    "translate"
+    "translate",
+    "javascript",
+    "javascript-library",
+    "language",
+    "locale",
+    "earth",
+    "localization",
+    "timezone",
+    "communication",
+    "human",
+    "vocabulary",
+    "speech",
+    "dialect",
+    "word",
+    "words",
+    "spoken-language",
+    "english",
+    "country",
+    "oral",
+    "pronunciation",
+    "city"
   ],
   "author": "Alexandru Cambose",
   "license": "MIT",
