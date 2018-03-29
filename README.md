@@ -34,7 +34,7 @@ polylang.t("errors.invalid_email", { email: "test@test.com", reason: "it is too 
 polylang.lang = 'en';
 
 polylang.t("welcome") // salutare
-polylang.t("errors.invalid_email", { email: "test@test.com", reason: "este prea scurt!" }); // test@test.com nu este un email valid deoarece este prea scurt!
+polylang.t("errors.invalid_email", { email: "test@test.com", motiv: "este prea scurt!" }); // test@test.com nu este un email valid deoarece este prea scurt!
 ```
 
 
