@@ -1,7 +1,8 @@
 # polylang
-Small library for handling multi language support using JavaScript
+
 [![Build Status](https://travis-ci.org/alexcambose/polylang.svg?branch=master)](https://travis-ci.org/alexcambose/polylang)
 
+Small library for handling multi language support using JavaScript
 ## Installation
 ```
 npm install --save @alexcambose/polylang
