@@ -143,3 +143,9 @@ Translate in custom language
 ```js
 polylang.t('errors.invalid_email', 'en', 'test@test.com');
 ```
+## Test
+```
+npm test
+```
+## License
+[MIT](https://github.com/alexcambose/polylang/blob/master/LICENSE)
