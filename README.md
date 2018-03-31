@@ -2,13 +2,14 @@
 
 [![Build Status](https://travis-ci.org/alexcambose/polylang.svg?branch=master)](https://travis-ci.org/alexcambose/polylang)
 
-Small library for handling multi language support using JavaScript
+Library for handling multi language support using JavaScript
 
 ## Installation
+Install using [npm](https://www.npmjs.com/package/polylang)
 ```
 npm install --save polylang
 ```
-[npm](https://www.npmjs.com/package/polylang)
+
 ## Usage
 ```javascript
 const Polylang = require('polylang'); // or if you are using ES6 imports, import Polylang from 'polylang';
@@ -79,8 +80,8 @@ Add a translation
 
 | Param | Type | Description |
 | --- | --- | --- |
-| language | <code>string</code> | language |
-| data | <code>object</code> | translation object |
+| language | <code>string</code> | Language |
+| data | <code>object</code> | Translation object |
 
 **Example**
 ```js
@@ -103,7 +104,7 @@ Remove a translation
 
 | Param | Type | Description |
 | --- | --- | --- |
-| language | <code>string</code> | language name that wil be removeed |
+| language | <code>string</code> | Language name that will be removeed |
 
 **Example**
 ```js
@@ -129,7 +130,7 @@ polylang.t('errors.invalid_email', {email: 'test@test.com', reason: 'it is taken
 <a name="Polylang+translate"></a>
 
 ### polylang.translate(selector, language, interpolationValues)
-Translate in custom language
+Translate in a custom language
 
 **Kind**: instance method of [<code>Polylang</code>](#Polylang)
 
